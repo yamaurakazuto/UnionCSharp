@@ -1,4 +1,5 @@
-﻿public record class Success(string Message);
+﻿using System;   
+public record class Success(string Message);
 public record class Error(string Message);
 
 public union Result(Success, Error);
